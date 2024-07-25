@@ -2,7 +2,6 @@
 #include <string>
 using namespace std;
 
-// Estructuras
 struct Estudiante {
     string nombre;
     string apellido;
@@ -23,17 +22,14 @@ struct Curso {
     int inscritos;
 };
 
-// Arreglos
 Estudiante estudiantes[100];
 Profesor profesores[50];
 Curso cursos[20];
 
-// Contadores
 int numEstudiantes = 0;
 int numProfesores = 0;
 int numCursos = 0;
 
-// Funciones
 void registrarEstudiante();
 void consultarEstudiante();
 void registrarProfesor();
